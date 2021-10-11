@@ -1,0 +1,305 @@
+body{
+    background-color: rgb(165, 165, 165);
+}
+
+.container{
+    width:96%;
+    margin:15px auto;
+    background-color: white;
+    padding-bottom: 20px;
+    border-radius: 15px ;
+    box-shadow: 0 0 8px rgb(112, 112, 112);
+
+}
+.flex{
+    display: flex;
+}
+
+/*-------------------menubar-------------------------*/
+.menubar{
+   width:50%;
+   margin:10px auto;
+   padding:5px
+}
+
+.menubar a{
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+    padding:0 5px;
+    margin:auto;
+}
+.menubar a:last-child{
+    background:rgb(72, 105, 255);
+    color:white;
+    padding:10px;
+    border-radius: 30px;
+}
+/*-------------------intro-------------------------*/
+.intro{
+    width:96%;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: lavender;
+    border-radius: 15px;
+}
+.intro img{
+    width:350px;
+    height: 400px;
+    border-radius: 50px ;
+}
+
+.intro .information{
+    width:48%;
+    margin-top:60px;
+    margin-left:50px;
+    
+
+}
+.intro .image{
+    margin: auto;
+    width:40%;
+    border-radius: 0px;
+}
+
+.intro .information h4{
+    background-color: rgb(46, 119, 255);
+    width:80px;
+    padding:15px;
+    color: white;
+    border-radius: 45% 40px 45px 0;
+    font-style: 16px;
+}
+.intro .information h2{
+    font-size: 30px;
+    margin-top: -15px;
+}
+.intro .information h3{
+    font-style: inherit;
+    margin-top: -15px;
+}
+.intro .information a{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(46, 119, 255);
+    padding:7px;
+    font-size: 12px;
+    border:1px solid  rgb(46, 119, 255);
+    border-radius: 30px;
+
+}
+.intro .information a:hover{
+    background-color: rgb(46, 119, 255) ;
+    color: white;
+}
+/*------------------about--------------------------*/
+.about{
+    margin:20px auto;
+    width:96%;
+
+}
+.about .image{
+    width:45%;
+    margin-right: 25px;
+
+}
+.about img{
+    width:100%;
+    border-radius: 20px;
+}
+.about .information .hint{
+    display: flex;
+    margin-top:-5px
+}
+
+.about .information{
+    width:45%;
+    margin-left:10%
+}
+.about .information h2{
+    text-align: center;
+    font-size: 30px;
+}
+.about .information .a{
+    margin:auto;
+    text-decoration: none;
+    color: black;
+    opacity: .75;
+}
+.about .information .cv {
+    text-decoration: none;}
+    
+.about .information .cv p{
+    width:115px;
+    padding:10px;
+    background-color: rgb(46, 119, 255);
+    color: white;
+    border-radius: 5px;
+   
+}
+
+.about .information .cv:hover p{
+    box-shadow: 0 0 5px rgb(46, 119, 255);
+    transition: 1s;
+}
+
+
+
+
+/*------------skill------------------*/
+.skill{
+    width:96%;
+    margin-top: 20px;
+    margin:auto;
+    display: flex;
+    
+}
+
+.skill h2{
+    text-align: center;
+}
+
+.skill .information{
+    width:50%;
+    margin-right: 5%;
+}
+
+
+.skill .bg{
+    width:100%;
+    background-color: rgb(210, 214, 212);
+    border-radius: 10px;
+}
+.skill .bg p{
+    font-size: 10px;
+    padding:2px;
+    color:white;
+    text-align: right;
+}
+.skill .python{
+    background-color: rgba(0, 123, 194, 0.925);
+    border-radius:10px ;
+    width:50%;
+}
+.skill .html{
+    background-color: rgba(0, 181, 194, 0.925);
+    border-radius:10px ;
+    width:85%;
+}
+.skill .css{
+    background-color: rgb(136, 85, 255);
+    border-radius:10px ;
+    width:80%;
+}
+.skill .wordpress{
+    background-color: rgba(255, 97, 184, 0.925);
+    border-radius:10px ;
+    width:75%;
+}
+.skill .graphics{
+    background-color: rgba(255, 151, 92, 0.925);
+    border-radius:10px ;
+    width:70%;
+}
+
+.skill .image{
+    width: 50%;
+}
+.skill .image img{
+    width:90%;
+    margin:100px auto;
+    border-radius: 5px;
+}
+
+/*----------------service----------------------------*/
+.service{
+    width:96%;
+    margin: auto;
+    padding: 10px;
+}
+
+.service h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.service-content{
+    padding-left:2%;
+    padding-right:2%;
+    padding-top:30px ;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-top: -20px;
+}
+.service .image{
+    width:160px;
+    margin:auto;
+}
+
+.service img{
+    width:100%;
+    margin: auto;
+}
+.service h3,
+.service p{
+    text-align: center;
+}
+
+.service .content:first-child h3{
+    margin-top:70px
+}
+.service .content:nth-child(2) h3{
+    margin-top:50px
+}
+.service .content:nth-child(3) h3{
+    margin-top:80px
+}
+.service .content:nth-child(4) h3{
+    margin-top:50px
+}
+.service .content:nth-child(5) h3{
+    margin-top:67px
+}
+
+.service .content{
+    padding: 5px;
+    border-radius: 20px;
+}
+.service .content:hover{
+    border-radius: 20px;
+    box-shadow:0 0 8px #9fd1fa;
+    transition: 1s;
+}
+
+/*--------------------talk------------------------*/
+.talk{
+    width: 96%;
+    margin:auto;
+    background-color: rgb(214, 214, 255);
+    border-radius: 5px;
+    padding: 12px;
+    padding-bottom: 18px;
+
+
+}
+.talk h2{
+    text-align: center;
+    color:white;
+}
+.social-media{
+    display: flex;
+    margin-left:15px;
+}
+.social-media a{
+   text-decoration: none;
+   padding:0 20px;
+   color:white;
+   margin:0 5%
+
+}
+.social-media i{
+    color: rgb(98, 122, 255);
+   
+}
